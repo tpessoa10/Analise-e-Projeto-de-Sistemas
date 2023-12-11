@@ -7,8 +7,8 @@ namespace Projeto.Models
 {
     public class Item
     {
-        public double Preco{get;set;}
-        public int Percentual{get;set;}
-        public int Quantidade{get;set;}
+        public double preco{get;set;}
+        public int percentual{get;set;}
+        public int quantidade{get;set;}
     }
 }

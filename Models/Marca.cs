@@ -7,8 +7,8 @@ namespace Projeto.Models
 {
     public class Marca
     {
-        public string Nome {get; set;}
-        public string Descricao {get; set;}
-        public List<Produto> Produtos{get;set;}
+        public string nome {get; set;}
+        public string descricao {get; set;}
+        public List<Produto> produtos{get;set;}
     }
 }
