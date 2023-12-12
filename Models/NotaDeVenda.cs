@@ -11,6 +11,8 @@ namespace Projeto.Models
         public bool tipo{get;set;}
         public Cliente cliente{get; set;}
         public Pagamento pagamento{get;set;}
+        public Transportadora transportadora{get;set;}
+        public TipoDePagamento tipoDePagamento{get;set;}
 
         public void Cancelar(){
             //
